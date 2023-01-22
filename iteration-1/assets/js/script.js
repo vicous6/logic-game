@@ -24,7 +24,7 @@ console.log(truc[i])
      
       })
   }
-// button.addEventListener('click',function(){
+button.addEventListener('click',function(){
     
      let count = 0
     let intervalId = setInterval(function(){
@@ -56,7 +56,7 @@ console.log(truc[i])
         }
 }, 2);
    
-// })
+})
 
 });
 

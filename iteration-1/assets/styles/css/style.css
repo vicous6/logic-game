@@ -81,6 +81,12 @@ body > section:nth-of-type(2) {
   height: 20vh;
   width: 100vw;
 }
+body > section:nth-of-type(2) > button {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  font-size: 3rem;
+}
+
 .blue1 {
   background: blue;
 }

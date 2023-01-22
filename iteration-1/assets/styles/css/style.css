@@ -1,0 +1,116 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+body > section:nth-of-type(1) {
+  width: 100vw;
+}
+body > section:nth-of-type(1) > ul {
+  width: 50%;
+  margin: 0 auto;
+  background: grey;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 3rem;
+  grid-gap: 1rem;
+}
+body > section:nth-of-type(1) > ul > li {
+  justify-self: center;
+  text-align: center;
+  align-self: center;
+  height: 12vh;
+  font-size: 5rem;
+  width: 14vw;
+  border: 1px white solid;
+}
+body > section:nth-of-type(2) {
+  height: 20vh;
+  width: 100vw;
+}
+.blue1 {
+  background: blue;
+}
+
+.red2 {
+  background: red;
+}
+
+.yellow3 {
+  background: yellow;
+}
+
+.grey4 {
+  background: grey;
+}
+
+.pink5 {
+  background: pink;
+}
+
+.green6 {
+  background: green;
+}
+
+.orange7 {
+  background: orange;
+}
+
+.white8 {
+  background: white;
+}
+
+/*# sourceMappingURL=style.css.map */

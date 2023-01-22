@@ -1,0 +1,69 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import "vars";
+@import "reset";
+@import "responsive";
+
+
+body{
+    width:100vw;
+    height:100vh;
+    & > section:nth-of-type(1){
+     
+        width:100vw;
+        & > ul{
+            width:50%;
+            margin:0 auto;
+            background:grey;
+            display:grid;
+            grid-template-columns:1fr 1fr 1fr; 
+                padding: 3rem;
+                grid-gap:1rem;
+            &>li{
+                justify-self:center;
+                    text-align: center;
+                    align-self:center;
+                height:12vh ;
+                    font-size: 5rem;
+                width:14vw;
+                border:1px white solid;
+            }
+            
+        }
+    }
+     & > section:nth-of-type(2){
+         height:20vh;
+        width:100vw;
+         & > button{
+             
+         }
+     }
+}
+
+.blue1{
+    background:blue;
+}
+.red2{
+    background:red;
+}
+.yellow3{
+    background:yellow;
+}
+.grey4{
+    background:grey;
+}
+.pink5{
+    background:pink;
+}
+.green6{
+    background:green;
+}
+.orange7{
+    background:orange;
+}
+.white8{
+    background:white;
+}
